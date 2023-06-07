@@ -399,7 +399,7 @@ body {
 	position:absolute;
 	left:0px;
 	top:37px;
-	background-image:url(/imagens/rectangle_132.png);
+	background-image:url(./imagens/rectangle_132.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -409,7 +409,7 @@ body {
 	position:absolute;
 	left:168px;
 	top:37px;
-	background-image:url(/imagens/rectangle_134.png);
+	background-image:url(./imagens/rectangle_134.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -640,7 +640,7 @@ body {
 	left:-3.3333282470703125px;
 	top: -46.666656494140625px;
     background-color: aqua;
-	background-image:url(/imagens/palm_trees_at_night_258154_1.png);
+	background-image:url(./imagens/palm_trees_at_night_258154_1.png);
 	background-repeat:no-repeat;
 	background-size:cover;
     display: flex;
