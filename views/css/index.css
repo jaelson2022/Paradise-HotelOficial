@@ -399,7 +399,7 @@ body {
 	position:absolute;
 	left:0px;
 	top:37px;
-	background-image:url(../imagens/rectangle_132.png);
+	background-image:url();
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -409,7 +409,7 @@ body {
 	position:absolute;
 	left:168px;
 	top:37px;
-	background-image:url(../imagens/rectangle_134.png);
+	background-image:url();
 	background-repeat:no-repeat;
 	background-size:cover;
 }
