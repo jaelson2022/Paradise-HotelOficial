@@ -1,3 +1,4 @@
+  
 <!DOCTYPE html>
 <html>
 
@@ -50,7 +51,7 @@
             </div>
         </div>
         <div class="v6_1130"><span class="v6_1131"><a href="/estrutura.html">Home</a></span>
-            <span class="v6_1132"><a href="/produtos/Login/index.html">Login</a></span>
+            <span class="v6_1132"><a href="/produtos/Login/formulario.php">Login</a></span>
             <span class="v6_1133"><a href="/produtos/quartos/quartos.html">Quartos</a></span>
             <span class="v6_1134"><a href="/produtos/Pagamentos/index.html">Facilidades</a></span>
         </div>
@@ -76,11 +77,18 @@
                 Viagem a Trabalho: SIM
                 Quarto Selecionado: Suíte Deluxe com Varanda</span>
         </div>
+
+        <div class="box">
+                <a href="#">Login</a>
+                <a href="#">Cadastre-se</a>
+        </div>
+        
         <div class="v6_1148">
-            <div class="v6_1149"></div><span class="v6_1150">Faça seu Login com CPF e Senha, caso já seja nosso
-                hóspede.</span>
-            <div class="v6_1151">
-                <div class="v6_1152"></div>
+            <div class="v6_1149"></div><span class="v6_1150">Clique no botão abaixo, caso já seja nosso
+                hóspede.</span> 
+                
+            <div class="v6_1151"> 
+                <div class="v6_1152"></div> 
                 <div class="v6_1153"></div>
                 <div class="v6_1154"></div>
                 <span class="v6_1155"><button>Enviar</button></span>
@@ -90,23 +98,25 @@
             <span class="v6_1159"><input type="password" placeholder="Insira Sua Senha"></span><span class="v6_1160"><a
                     href="#">Esqueci minha senha.</a></span>
         </div>
+    
         <div class="v6_1161">
-            <div class="v6_1162"></div>
+            <form action="formulario.php" method="post">
+            <div class="v6_1162" ></div>
             <div class="v6_1163"></div>
             <span class="v6_1164"><input type="submit" name="submit" id="submit"></span>
             <div class="v6_1165"></div>
             <div class="v6_1166"></div>
             <span class="v6_1167">Nome Completo</span>
-            <span class="v6_1168">CPF</span>
+            <span class="v6_1168">Password</span>
             <div class="v6_1169"></div>
             <span class="v6_1170">Celular</span>
             <div class="v6_1171"></div>
             <span class="v6_1172">Email</span>
-            <span class="v6_1173"><input type="text" name="nome" id="nome">
+            <span class="v6_1173"><input type="text" placeholder="Insira seu nome completo" name="nome" id="nome">
             </span>
-            <span class="v6_1174"><input type="tel" name="telefone" id="telefone"></span>
-            <span class="v6_1175"><input type="imail" name="email" id="email"></span>
-            <span class="v6_1176"><input type="text" name="CPF" id="CPF"></span>
+            <span class="v6_1174"><input type="tel" placeholder="Insira seu telefone" name="telefone" id="telefone"></span>
+            <span class="v6_1175"><input type="e-mail" placeholder="Insira seu email"  name="email" id="email"></span>
+            <span class="v6_1176"><input type="password" placeholder="Insira sua senha" name="senha" id="senha"></span>
             <span class="v6_1177">Primeira vez se hospedando conosco? Preencha os dados abaixo:</span>
         </div>
         <div class="v6_1178">
@@ -114,6 +124,8 @@
                 basta clicar em ENVIAR, que seus dados aparecerão na tela de Pagamento. Clique em IR PARA PAGAMENTO,
                 para finalizar sua Reserva.</span>
         </div>
+        </form>
+    
     </div>
 </body>
 

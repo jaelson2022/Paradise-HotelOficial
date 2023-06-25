@@ -34,7 +34,7 @@ body {
 	position:absolute;
 	left:200px;
 	top:10px;
-	background-image:url(/imagens/image_1.png);
+	background-image:url();
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -346,7 +346,7 @@ body {
 	position:absolute;
 	left:0px;
 	top:318px;
-	background-image:url(/imagens/big_tiny_belly_xtnnrqyc7ts_unsplash_1.png);
+	background-image:url(/views/imagens/big_tiny_belly_xtnnrqyc7ts_unsplash_1.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -399,7 +399,7 @@ body {
 	position:absolute;
 	left:0px;
 	top:37px;
-	background-image:url(./imagens/rectangle_132.png);
+	background-image:url(/views/imagens/rectangle_132.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -409,7 +409,7 @@ body {
 	position:absolute;
 	left:168px;
 	top:37px;
-	background-image:url(./imagens/rectangle_134.png);
+	background-image:url(/views/imagens/rectangle_134.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -640,7 +640,7 @@ body {
 	left:-3.3333282470703125px;
 	top: -46.666656494140625px;
     background-color: aqua;
-	background-image:url(./imagens/palm_trees_at_night_258154_1.png);
+	background-image:url(/views/imagens/palm_trees_at_night_258154_1.png);
 	background-repeat:no-repeat;
 	background-size:cover;
     display: flex;
@@ -696,6 +696,21 @@ body {
 	text-align:center;
 	font-size:43px;
 	letter-spacing:60;
+}
+
+.b6_995 {
+	color:rgba(255, 255, 255, 0.6299999952316284);
+    list-style: none;
+    text-decoration: none;
+	width:35px;
+	height:21px;
+	position:absolute;
+	left:800px;
+	top:15px;
+	font-family:Montserrat;
+	text-align:left;
+	font-size:11px;
+	letter-spacing:0;
 }
 .e6_995 a { 
 	color:rgba(255, 255, 255, 0.6299999952316284);
