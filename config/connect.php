@@ -1,14 +1,14 @@
 <?php
 
-use conexao as GlobalConexao;
+
 
    define('HOST','localhost');
    define('DATABASENAME','hospedagem');
    define('USER','root');
    define('SENHA','@#Deus2023');
 
-   class conexao{
-      protected $conexao;
+   class connect{
+      protected $connection;
 
       function __construct()
       {
@@ -19,7 +19,7 @@ use conexao as GlobalConexao;
       {
          try
          {
-            $this->conexao = new PDO('mysql:host='.HOST.';dbname='.DATABASENAME, USER, 'SENHA');
+            $this->connection = new PDO('mysql:host='.HOST.';dbname='.DATABASENAME, USER, 'SENHA');
          }
 
          catch (PDOException $e)

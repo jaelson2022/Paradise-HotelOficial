@@ -1,8 +1,8 @@
 <?php
 
-    require_once('./config/conexao.php');
+    require_once('./config/connect.php');
 
-    class ClientModel extends Conexao{
+    class ClientModel extends connect{
         private $table;
 
         function __construct()
@@ -13,7 +13,7 @@
 
         function getAll()
         {
-            $sqlSelect = $this->conexao->query("SELECT * FROM $this->table");
+            $sqlSelect = $this->connection->query("SELECT * FROM $this->table");
             $resultQuery = $sqlSelect->fetchAll();
             return $resultQuery; 
         }

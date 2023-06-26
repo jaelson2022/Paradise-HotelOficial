@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="box">
-        <form action="../views/teladecadastro.php" method="POST">
+        <form action="/views/teladecadastro.php" method="POST">
             <fieldset>
                 <legend><b>Fórmulario de Clientes</b></legend>
                 <br>
