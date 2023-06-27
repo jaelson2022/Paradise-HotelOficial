@@ -75,11 +75,12 @@
                 <div class="e6_965"><a href="./calendáriophpoo/index.php"></div>
                 <span class="e6_966">SELECIONAR DATAS</span>
             </div>
-            <div class=e6_967>
+            
+           <!---<div class=e6_967>
                 <span class="e6_968">VIAGEM A TRABALHO</span>
-                <div class="e6_969"></div>
+                <div class="e6_969"></div> -->
             </div>
-            <div class=e6_970>
+            <div cla+ss=e6_970>
                 <span class="e6_971">HÓSPEDES</span>
                 <div class="e6_972"></div>
                 <span class="e6_973">1 Adulto, 0 Crianças</span>
@@ -96,7 +97,7 @@
 
             <div class=e6_984>
                 <div class="e6_985"></div>
-                <span class="e6_986"><a href="/views/quartos/quartos.html">BUSCAR</a></span>
+                <span class="e6_986"><a href="../">BUSCAR</a></span>
             </div>
         </div> 
         <div class=e6_987>
@@ -112,9 +113,10 @@
            
         <span class="e6_995"><a href="../views/home.php">Home</a></span>
         <span><a href="#">Cadastre-se</a></span>
-        <span class="e6_996"><a href="/views/teledelogin.html">Login</a></span>
-        <span class="e6_997"><a href="/views/quartos/quartos.html">Quartos</a></span>
-        <span class="e6_998"><a href="../views/teladecadastro.php">Cadastro</a></span>
+        <span class="e6_996"><a href="./teledelogin.html">Login</a></span>
+        <span class="e6_997"><a href="../views/quartos/quartos.html">Quartos</a></span>
+        <span class="e6_998"><a href="../views/telacadastro.php">Cadastro</a></span>
+        <br>
         
         </div>  
 

@@ -1,10 +1,6 @@
-.e6_923 { 
-	overflow:hidden;
-}
-
 body {
     background: #E5E5E5;
-
+	display: flex;
 }
 
 .e6_923 { 

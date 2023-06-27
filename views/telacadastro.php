@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="box">
-        <form action="/views/teladecadastro.php" method="POST">
+        <form action="./cadastro.php" method="POST">
             <fieldset>
                 <legend><b>Fórmulario de Clientes</b></legend>
                 <br>
@@ -40,6 +40,7 @@
                         basta clicar em ENVIAR, que seus dados aparecerão na tela de Pagamento. Clique em IR PARA PAGAMENTO,
                         para finalizar sua Reserva</span></p>
                 </div>
+                <span class="e6_998"><a href="../views/telaatualizar.php">Atualizar</a></span>
                 <input type="submit" name="submit" id="submit">
             </fieldset>
         </form>

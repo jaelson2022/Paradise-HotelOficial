@@ -9,15 +9,18 @@
 </head>
 <body>
     
-    <div class="tela-login">
-        <h1>Login</h1>
-        <input type="text" placeholder="Nome">
-        <br>
-        <br>
-        <input type="password" placeholder="Senha">
-        <br>
-        <br>
-        <input class="inputSubmit" type="submit" name="submit" value="Enviar"> 
+    <div>
+        <form action="./login.php" method="POST"  class="tela-login">
+            <label for="cpf" class="labelInput"><h1>Login</h1></label>
+            <input type="text" name="cpf" id="cpf" class="inputUser" placeholder="CPF" required>
+            <br>
+            <br>
+            <label for="senha" class="labelInput"></label>
+            <input type="text" name="senha" id="senha" class="inputUser" placeholder="senha" required>
+            <br>
+            <br>
+            <input class="inputSubmit" type="submit" name="submit" value="Enviar"> 
+        </form action="POST">
     </div>
 </body>
 </html>

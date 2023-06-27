@@ -1,34 +1,31 @@
 <?php
 
+class Conexao {
+   protected $connection;
 
+   function __construct()
+   {
+      $this->connectDatabase();    
+   }
 
-   define('HOST','localhost');
-   define('DATABASENAME','hospedagem');
-   define('USER','root');
-   define('SENHA','@#Deus2023');
+   function connectDatabase()
+   {
+      $host = 'localhost';
+      $database = 'hospedagem';
+      $user = 'root';
+      $senha = '@#Deus2023';
 
-   class connect{
-      protected $connection;
-
-      function __construct()
-      {
-         $this->connectdatabase();    
-      }
-
-      function connectdatabase()
-      {
-         try
-         {
-            $this->connection = new PDO('mysql:host='.HOST.';dbname='.DATABASENAME, USER, 'SENHA');
-         }
-
-         catch (PDOException $e)
-         {
-            echo "Erro!".$e->getMessage();
-            die();
-         }
+      try {
+         $this->connection = new PDO('mysql:host='.$host.';dbname='.$database, $user, $senha);
+      } catch (PDOException $e) {
+         echo "Erro!".$e->getMessage();
+         die();
       }
    }
 
+   function getConnection() {
+      return $this->connection;
+   }
+}
 
 ?>
